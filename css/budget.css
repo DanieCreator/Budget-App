@@ -48,12 +48,14 @@ body {
 }
 
 .budget {
+    position: relative;
+    color: black;
+    /*
+    transform: translate(-50%, -50%);
     position: absolute;
     width: 350px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
+    /* top: 50%; */
+    /* left: 50%; */
 }
 
 .budget_title {
@@ -295,11 +297,11 @@ h2 {
     display: block;
 }
 
-.item:hover .item__value {
+.item:hover .item_value {
     transform: translateX(-20px);
 }
 
-.item:hover .item__percentage {
+.item:hover .item_percentage {
     transform: translateX(-20px);
 }
 
@@ -309,10 +311,10 @@ h2 {
     color: #FF5049;
 }
 
-.unpaid .item__percentage {
+.unpaid .item_percentage {
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
 }
 
-.unpaid:hover .item__description {
+.unpaid:hover .item_description {
     font-weight: 900;
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Budget App</title>
     <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
-    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css"> -->
+    -->
     <link rel="stylesheet" href="css//bootstrap.min.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> -->
     <link rel="stylesheet" href="../fontawesome/css/all.min.css">
@@ -33,13 +33,15 @@
                         <input type="text" name="desc" id="desc" class="add_description" placeholder="add description">
                         <input type="number" name="value" id="value" placeholder="value" class="add_value">
                         <button class="add_btn"><i class="fa fa-check" aria-hidden="true"></i></button>
+
+
                     </div>
                 </div>
             </div>
             <div class="row text-center">
 
 
-                <div class="col-8 col-md-8">
+                <div class="col-8 col-md-8 col-sm-12">
 
                     <div class="container-fluid">
 
@@ -49,6 +51,15 @@
                                 <div class="income">
                                     <h2 class="income_title">Income</h2>
                                     <div class="income_list">
+                                        <!-- <div class="item clearfix" id="income-0">
+                                            <div class="item_description">Salary</div>
+                                            <div class="right clearfix">
+                                                <div class="item_value">+20000</div>
+                                                <div class="item_delete">
+                                                    <button class="item_delete--btn"><i class="fa fa-delete"></i></button>
+                                                </div>
+                                            </div>
+                                        </div> -->
 
                                     </div>
                                 </div>
@@ -58,6 +69,24 @@
                                     <h2 class="expenses_title">Expenses</h2>
                                     <div class="expenses_list">
 
+                                        <!-- <div class="item clearfix" id="expenses--0">
+                                            <div class="item_description">Apartment rent</div>
+                                            <div class="right clearfix">
+                                                <div class="item_value">
+                                                    -9000.00
+                                                </div>
+                                                <div class="item_percentage">21%</div>
+                                                <div class="item_delete">
+                                                    <button class="item_delete--btn">
+                                                            <i class="fa fa-minus"></i>
+                                                        </button>
+                                                </div>
+                                            </div>
+                                        </div> -->
+
+
+
+
                                     </div>
                                 </div>
                             </div>
@@ -65,13 +94,13 @@
                     </div>
 
                 </div>
-                <div class="col-4 col-md-4">
+                <div class="col-4 col-md-4  col-sm-12">
                     <div class="row " style="align-items: center;justify-content: center; ">
                         <div class="budget ">
                             <div class="budget_title ">
                                 Available Budget in <span class="budget_title--month ">%month%</span>
                             </div>
-                            <div class="budget_income ">30000</div>
+                            <div class="budget_value ">30000</div>
                             <div class="budget_income clearfix ">
                                 <div class="budget_income--text ">Income</div>
                                 <div class="right ">
